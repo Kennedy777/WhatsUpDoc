@@ -1,7 +1,7 @@
-export default class DocSearch {
-    constructor(name, picture, street, city, state, zip, phone, noResults) {
-  
+export default class docSearch {
+  constructor(name, street, city, state, zip, phone, noResults) {
       this.name = name;
+      this.apiDoc = apiDoc;
       this.street = street;
       this.city = city;
       this.state = state;
@@ -9,5 +9,4 @@ export default class DocSearch {
       this.phone = phone;
       this.noResults = noResults;
     }
-  }
-  
+}

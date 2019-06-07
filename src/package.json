@@ -1,3 +1,16 @@
-"scripts": {
-    "build": "webpack"
-},
+{
+    "name": "better-doc",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "4.19.1",
+      "webpack-cli": "^2.0.9"
+    }
+  }
