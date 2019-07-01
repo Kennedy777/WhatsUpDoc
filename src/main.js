@@ -16,7 +16,7 @@ $(document).ready(function() {
     const mdLastName = $('#doctor-last-name').val();
     $('#doctor-last-name').val('');
     $ajax({
-      url: 
+      url: `https://api.betterdoctor.com/2016-03-01/doctors?name=${name}&location=45.5122%2C%20-122.6587%2C%2030&skip=0&limit=10&user_key=${process.env.exports.apiKey}`,
       type: 'GET',
       data: {
         format: 'json'
