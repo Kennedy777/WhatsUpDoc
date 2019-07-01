@@ -1,4 +1,4 @@
-export default class docSearch {
+export default class DocSearch {
   constructor(name, street, city, state, zip, phone, noResults) {
       this.name = name;
       this.apiDoc = apiDoc;
