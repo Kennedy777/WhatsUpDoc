@@ -10,7 +10,7 @@
     "lint": "eslint src/*.js"
   },
   "keywords": [],
-  "author": "'M Kennedy'",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -41,13 +41,5 @@
     "webpack": "4.19.1",
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.7.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kennedy777/WhatsUpDoc.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Kennedy777/WhatsUpDoc/issues"
-  },
-  "homepage": "https://github.com/Kennedy777/WhatsUpDoc#readme"
+  }
 }
