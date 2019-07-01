@@ -1,8 +1,44 @@
-/* body {
-    background-color: #2c1cbb33;
-} */
-
-.container {
-    margin: 5%;
-    padding: 5%;
-}
+header, body {
+    background-color: #22ccbb;
+    color: darkblue;
+  }
+  
+  header {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    padding: 15px;
+  }
+  
+  .container {
+    margin: 5% auto;
+  }
+    
+  .doc-searc-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-form-box input {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  #search-button button {
+    background-color: blue;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #results {
+    margin-top: 15px;
+  }
+  #results img {
+    margin-bottom: 10px;
+  }
+  
